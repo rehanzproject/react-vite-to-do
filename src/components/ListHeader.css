@@ -1,0 +1,10 @@
+.listHeader__content {
+    display: flex;
+    margin: 20px 60px;
+}
+.listHeader__no {
+    padding:0 30px;
+}
+.listHeader__option {
+   padding-left: 100px;
+}

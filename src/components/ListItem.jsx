@@ -1,6 +1,6 @@
 import React from 'react'
 import './ListItem.css'
-const ListItem = ({no , title, onDelete}) => {
+const ListItem = ({no , title, onDelete, onEdit}) => {
   return (
     <div className='listItem__content'>
         <div className="listItem__no">
@@ -11,6 +11,9 @@ const ListItem = ({no , title, onDelete}) => {
         </div>
         <div className="listItem__action">
             <button onClick={onDelete}>Delete</button>
+        </div>
+        <div className="listItem__edit">
+            <button onClick={onEdit}>Edit</button>
         </div>
         
     </div>
